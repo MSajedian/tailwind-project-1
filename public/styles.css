@@ -468,11 +468,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
 .text-6xl {
   font-size: 3.75rem;
   line-height: 1;
@@ -503,4 +498,30 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-gray-700 {
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity));
+}
+
+.underline {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+.underline-offset-1 {
+  text-underline-offset: 1px;
+}
+
+.underline-offset-2 {
+  text-underline-offset: 2px;
+}
+
+.underline-offset-4 {
+  text-underline-offset: 4px;
+}
+
+.hover\:underline:hover {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+.hover\:underline-offset-4:hover {
+  text-underline-offset: 4px;
 }
